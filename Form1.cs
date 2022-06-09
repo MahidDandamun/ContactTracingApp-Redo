@@ -16,5 +16,7 @@ namespace Contact_tracing_app
         {
             InitializeComponent();
         }
+
+
     }
 }
