@@ -39,7 +39,12 @@ namespace Contact_tracing_app
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"E:\Downloads\test.txt");
-            file.WriteLine("Fullname:" + txtbxFname.Text);
+            file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " +txtbxTime.Text);
+            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------");
+            file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: " + txtbxDate.Text);
+            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------");
+            file.WriteLine("Zip code: " + txtbxZip.Text + " | " + " Age: " + txtbxAge.Text + " | " + " Temperature: " + txtbxTemp.Text);
+
             file.Close();
             MessageBox.Show("Thanks for Cooperation");
         }
