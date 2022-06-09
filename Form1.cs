@@ -38,8 +38,8 @@ namespace Contact_tracing_app
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"E\Downloads\test.txt");
-
+            StreamWriter file = new StreamWriter(@"E:\Downloads\test.txt");
+            file.WriteLine("Fullname:" + txtbxFname.Text);
             file.Close();
             MessageBox.Show("Thanks for Cooperation");
         }
