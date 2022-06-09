@@ -44,14 +44,60 @@ namespace Contact_tracing_app
             file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: " + txtbxDate.Text);
             file.WriteLine("-------------------------------------------------------------------------------------------------------------------------");
             file.WriteLine("Zip code: " + txtbxZip.Text + " | " + " Age: " + txtbxAge.Text + " | " + " Temperature: " + txtbxTemp.Text);
+          
+         
+
+            if (rdbtn1.Checked)
+            {
+                file.WriteLine("Q1: YES");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+            else if (rdbtn2.Checked)
+            {
+                file.WriteLine("Q1: NO");
+            }
+
+
+
+
 
             file.Close();
+
+
             MessageBox.Show("Thanks for Cooperation");
         }
 
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
