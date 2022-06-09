@@ -43,5 +43,10 @@ namespace Contact_tracing_app
             file.Close();
             MessageBox.Show("Thanks for Cooperation");
         }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
