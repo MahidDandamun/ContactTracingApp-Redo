@@ -38,18 +38,19 @@ namespace Contact_tracing_app
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"E:\Downloads\test.txt");
-            file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " +txtbxTime.Text);
-            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------");
-            file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: " + txtbxDate.Text);
-            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------");
+            StreamWriter file = new StreamWriter(@"E:\Downloads\test.txt", true);
+            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------"+" | ");
+            file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " +txtbxTime.Text  + " | ");
+            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
+            file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: " + txtbxDate.Text + " | ");
+            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------"+ " | ");
             file.WriteLine("Zip code: " + txtbxZip.Text + " | " + " Age: " + txtbxAge.Text + " | " + " Temperature: " + txtbxTemp.Text);
-          
-         
+            file.WriteLine("-------------------------------------------------------------------------------------------------------------------------"+ " | ");
+
 
             if (rdbtn1.Checked)
             {
-                file.WriteLine("This person have difficulty in breathing");
+                file.WriteLine("This person is having  difficulty in breathing");
             }
             else if (rdbtn2.Checked)
             {
@@ -119,18 +120,51 @@ namespace Contact_tracing_app
             {
                 file.WriteLine("Q9: No");
             }
-
             file.Close();
-            btnNext.Visible = false;
-            btnReturn.Visible = false;
+
+
+
+            btnAnotherOne.Visible = true;
             btnSubmit.Visible = false;
-            btnAnotherOne.Visible =true;
+            btnReturn.Visible = false;
+            pnl2.Visible = false;
+            pnl1.Visible = false;
+            MessageBox.Show("Your response has been recorded");
+        }
 
+        private void btnAnotherOne_Click(object sender, EventArgs e)
+        {
+            txtbxAddress.Text = "";
+            txtbxAge.Text = "";
+            txtbxContact.Text = "";
+            txtbxDate.Text = "";
+            txtbxEmail.Text = "";
+            txtbxFname.Text = "";
+            txtbxTemp.Text = "";
+            txtbxTime.Text = "";
+            txtbxZip.Text = "";
+            rdbtn1.Checked = false;
+            rdbtn2.Checked = false;
+            rdbtn3.Checked = false;
+            rdbtn4.Checked = false;
+            rdbtn5.Checked = false;
+            rdbtn6.Checked = false;
+            rdbtn7.Checked = false;
+            rdbtn8.Checked = false;
+            rdbtn9.Checked = false;
+            rdbtn10.Checked = false;
+            rdbtn11.Checked = false;
+            rdbtn12.Checked = false;
+            rdbtn13.Checked = false;
+            rdbtn14.Checked = false;
+            rdbtn15.Checked = false;
+            rdbtn16.Checked = false;
+            rdbtn17.Checked = false;
+            rdbtn18.Checked = false;
 
-
-
-
-            MessageBox.Show("Thanks for Cooperation");
+            pnl1.Visible = true;
+            btnAnotherOne.Visible=false;
+            btnNext.Visible = true;
         }
     }
 }
