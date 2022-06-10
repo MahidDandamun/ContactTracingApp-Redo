@@ -72,75 +72,75 @@ namespace Contact_tracing_app
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 if (rdbtn1.Checked)
                 {
-                    file.WriteLine("This person is having  difficulty in breathing");
+                    file.WriteLine("Question1: This person is having  difficulty in breathing");
                 }
                 else if (rdbtn2.Checked)
                 {
-                    file.WriteLine("Q1: NO");
+                    file.WriteLine("Question1: NO");
                 }
                 if (rdbtn3.Checked)
                 {
-                    file.WriteLine("This person have lost his sense of taste and smell");
+                    file.WriteLine("Question2: This person have lost his sense of taste and smell");
                 }
                 else if (rdbtn4.Checked)
                 {
-                    file.WriteLine("Q2: NO");
+                    file.WriteLine("Question2: NO");
                 }
                 if (rdbtn5.Checked)
                 {
-                    file.WriteLine("This person have sore throat");
+                    file.WriteLine("Question3: This person have sore throat");
                 }
                 else if (rdbtn6.Checked)
                 {
-                    file.WriteLine("Q3: NO");
+                    file.WriteLine("Question3: NO");
                 }
                 if (rdbtn7.Checked)
                 {
-                    file.WriteLine("This person have fever and chills");
+                    file.WriteLine("Question4: This person have fever and chills");
                 }
                 else if (rdbtn8.Checked)
                 {
-                    file.WriteLine("Q4: NO");
+                    file.WriteLine("Question4: NO");
                 }
                 if (rdbtn9.Checked)
                 {
-                    file.WriteLine("This person have diarrhea");
+                    file.WriteLine("Question5: This person have diarrhea");
                 }
                 else if (rdbtn10.Checked)
                 {
-                    file.WriteLine("Q5: NO");
+                    file.WriteLine("Question5: NO");
                 }
                 if (rdbtn11.Checked)
                 {
-                    file.WriteLine("This person have experienced having nausea and vomiting ");
+                    file.WriteLine("Question6: This person have experienced having nausea and vomiting ");
                 }
                 else if (rdbtn12.Checked)
                 {
-                    file.WriteLine("Q6: NO");
+                    file.WriteLine("Question6: NO");
                 }
                 if (rdbtn13.Checked)
                 {
-                    file.WriteLine("This person have been exposed to a covid-19 patient");
+                    file.WriteLine("Question7: This person have been exposed to a covid-19 patient");
                 }
                 else if (rdbtn14.Checked)
                 {
-                    file.WriteLine("Q7: NO");
+                    file.WriteLine("Question7: NO");
                 }
                 if (rdbtn15.Checked)
                 {
-                    file.WriteLine("This person have travel history to another countries");
+                    file.WriteLine("Question8: This person have travel history to another countries");
                 }
                 else if (rdbtn16.Checked)
                 {
-                    file.WriteLine("Q8: NO");
+                    file.WriteLine("Question8: NO");
                 }
                 if (rdbtn17.Checked)
                 {
-                    file.WriteLine("This person have received two doses of Covid Vaccine");
+                    file.WriteLine("Question9: This person have received two doses of Covid Vaccine");
                 }
                 else if (rdbtn18.Checked)
                 {
-                    file.WriteLine("Q9: No");
+                    file.WriteLine("Question9: No");
                 }
                 file.Close();
                 btnAnotherOne.Visible = true;
