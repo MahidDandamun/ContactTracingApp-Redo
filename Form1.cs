@@ -62,7 +62,7 @@ namespace Contact_tracing_app
                 ((rdbtn15.Checked != false) || (rdbtn16.Checked != false)) && 
                 ((rdbtn17.Checked != false) || (rdbtn18.Checked != false)))
             {
-                StreamWriter file = new StreamWriter(@"E:\Downloads\test.txt", true);
+                StreamWriter file = new StreamWriter(@"E:\Downloads\Contact persons.txt", true);
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " + txtbxTime.Text + " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
