@@ -121,6 +121,13 @@ namespace Contact_tracing_app
             }
 
             file.Close();
+            btnNext.Visible = false;
+            btnReturn.Visible = false;
+            btnSubmit.Visible = false;
+            btnAnotherOne.Visible =true;
+
+
+
 
 
             MessageBox.Show("Thanks for Cooperation");

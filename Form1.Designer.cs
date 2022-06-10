@@ -94,6 +94,7 @@
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.btnAnotherOne = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl1.SuspendLayout();
@@ -768,11 +769,22 @@
             this.groupBox9.TabIndex = 33;
             this.groupBox9.TabStop = false;
             // 
+            // btnAnotherOne
+            // 
+            this.btnAnotherOne.Location = new System.Drawing.Point(241, 554);
+            this.btnAnotherOne.Name = "btnAnotherOne";
+            this.btnAnotherOne.Size = new System.Drawing.Size(116, 33);
+            this.btnAnotherOne.TabIndex = 24;
+            this.btnAnotherOne.Text = "Create Another Form";
+            this.btnAnotherOne.UseVisualStyleBackColor = true;
+            this.btnAnotherOne.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(613, 599);
+            this.Controls.Add(this.btnAnotherOne);
             this.Controls.Add(this.pnl2);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnReturn);
@@ -880,6 +892,7 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.Button btnAnotherOne;
     }
 }
 
