@@ -15,18 +15,32 @@ namespace Contact_tracing_app
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();              
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            pnl1.Visible = false;
-            btnNext.Visible = false;
-            btnReturn.Visible = true;
-            btnSubmit.Visible = true;
-            pnl2.Visible = true;
-        }
+            if (((txtbxAddress.Text != "") && (txtbxFname.Text != "") && (txtbxEmail.Text != "") && (txtbxAge.Text != "")) ||
+               ((txtbxContact.Text != "") && (txtbxDate.Text != "") && (txtbxTemp.Text != "") && (txtbxTime.Text != "")) ||
+               (txtbxZip.Text != ""))
+            {
+                btnNext.Enabled = true;
+                pnl1.Visible = false;
+                btnNext.Visible = false;
+                btnReturn.Visible = true;
+                btnSubmit.Visible = true;
+                pnl2.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Please fill in the fields");
 
+            }
+
+
+        }
+        
+        
         private void btnReturn_Click(object sender, EventArgs e)
         {
             pnl1.Visible = true;
@@ -166,5 +180,6 @@ namespace Contact_tracing_app
             btnAnotherOne.Visible=false;
             btnNext.Visible = true;
         }
+       
     }
 }
