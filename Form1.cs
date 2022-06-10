@@ -49,55 +49,81 @@ namespace Contact_tracing_app
 
             if (rdbtn1.Checked)
             {
-                file.WriteLine("Q1: YES");
+                file.WriteLine("This person have difficulty in breathing");
             }
             else if (rdbtn2.Checked)
             {
                 file.WriteLine("Q1: NO");
             }
-            else if (rdbtn2.Checked)
+            if (rdbtn3.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("This person have lost his sense of taste and smell");
             }
-            else if (rdbtn2.Checked)
+            else if (rdbtn4.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("Q2: NO");
             }
-            else if (rdbtn2.Checked)
+            if (rdbtn5.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("This person have sore throat");
             }
-            else if (rdbtn2.Checked)
+            else if (rdbtn6.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("Q3: NO");
             }
-            else if (rdbtn2.Checked)
+            if (rdbtn7.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("This person have fever and chills");
             }
-            else if (rdbtn2.Checked)
+            else if (rdbtn8.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("Q4: NO");
             }
-            else if (rdbtn2.Checked)
+            if (rdbtn9.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("This person have diarrhea");
             }
-            else if (rdbtn2.Checked)
+            else if (rdbtn10.Checked)
             {
-                file.WriteLine("Q1: NO");
+                file.WriteLine("Q5: NO");
             }
-
-
-
-
+            if (rdbtn11.Checked)
+            {
+                file.WriteLine("This person have experienced having nausea and vomiting ");
+            }
+            else if (rdbtn12.Checked)
+            {
+                file.WriteLine("Q6: NO");
+            }
+            if (rdbtn13.Checked)
+            {
+                file.WriteLine("This person have been exposed to a covid-19 patient");
+            }
+            else if (rdbtn14.Checked)
+            {
+                file.WriteLine("Q7: NO");
+            }
+            if (rdbtn15.Checked)
+            {
+                file.WriteLine("This person have travel history to another countries");
+            }
+            else if (rdbtn16.Checked)
+            {
+                file.WriteLine("Q8: NO");
+            }
+            if (rdbtn17.Checked)
+            {
+                file.WriteLine("This person have received two doses of Covid Vaccine");
+            }
+            else if (rdbtn18.Checked)
+            {
+                file.WriteLine("Q9: No");
+            }
 
             file.Close();
 
 
             MessageBox.Show("Thanks for Cooperation");
         }
-
-      
     }
 }
