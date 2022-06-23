@@ -299,7 +299,6 @@
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
-            this.pnl1.Controls.Add(this.dtp1);
             this.pnl1.Controls.Add(this.label11);
             this.pnl1.Controls.Add(this.txtbxEmail);
             this.pnl1.Controls.Add(this.label10);
@@ -318,6 +317,7 @@
             this.pnl1.Controls.Add(this.label2);
             this.pnl1.Controls.Add(this.txtbxFname);
             this.pnl1.Controls.Add(this.label1);
+            this.pnl1.Controls.Add(this.dtp1);
             this.pnl1.Location = new System.Drawing.Point(25, 133);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(546, 380);
@@ -393,7 +393,7 @@
             this.pnl2.Controls.Add(this.label12);
             this.pnl2.Controls.Add(this.label17);
             this.pnl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pnl2.Location = new System.Drawing.Point(25, 136);
+            this.pnl2.Location = new System.Drawing.Point(25, 133);
             this.pnl2.Name = "pnl2";
             this.pnl2.Size = new System.Drawing.Size(576, 380);
             this.pnl2.TabIndex = 23;
@@ -849,8 +849,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(613, 599);
-            this.Controls.Add(this.btnAnotherOne);
             this.Controls.Add(this.pnl2);
+            this.Controls.Add(this.btnAnotherOne);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnNext);

@@ -56,11 +56,11 @@ namespace Contact_tracing_app
                 ((rdbtn15.Checked != false) || (rdbtn16.Checked != false)) && 
                 ((rdbtn17.Checked != false) || (rdbtn18.Checked != false)))
             {
-                StreamWriter file = new StreamWriter(@"E:\Downloads\Contact persons.txt", true);
+                StreamWriter file = new StreamWriter(@"E:\Downloads\Contact persons.txt");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " + txtbxTime.Text + " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
-                file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: "  + " | ");
+                file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: "  +dtp1.Text+ " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Zip code: " + txtbxZip.Text + " | " + " Age: " + txtbxAge.Text + " | " + " Temperature: " + txtbxTemp.Text);
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
