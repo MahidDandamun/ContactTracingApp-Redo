@@ -20,8 +20,7 @@ namespace Contact_tracing_app
         private void btnNext_Click(object sender, EventArgs e)
         {
             if (((txtbxAddress.Text != "") && (txtbxFname.Text != "") && (txtbxEmail.Text != "") && (txtbxAge.Text != "")) &&
-               ((txtbxContact.Text != "")  && (txtbxTemp.Text != "") && (txtbxTime.Text != "")) &&
-               (txtbxZip.Text != ""))
+               ((txtbxContact.Text != "")  && (txtbxTemp.Text != "")) && (txtbxZip.Text != ""))
             {
                 btnNext.Enabled = true;
                 pnl1.Visible = false;
@@ -56,9 +55,9 @@ namespace Contact_tracing_app
                 ((rdbtn15.Checked != false) || (rdbtn16.Checked != false)) && 
                 ((rdbtn17.Checked != false) || (rdbtn18.Checked != false)))
             {
-                StreamWriter file = new StreamWriter(@"E:\Downloads\Contact persons.txt");
+                StreamWriter file = new StreamWriter(@"E:\Downloads\Contact persons.txt", true);
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
-                file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " + txtbxTime.Text + " | ");
+                file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " + dtp2.Text + " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: "  +dtp1.Text+ " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
@@ -156,11 +155,12 @@ namespace Contact_tracing_app
             txtbxAddress.Text = "";
             txtbxAge.Text = "";
             txtbxContact.Text = "";
-            
+            dtp1.Text = "";
+            dtp2.Text = "";
             txtbxEmail.Text = "";
             txtbxFname.Text = "";
             txtbxTemp.Text = "";
-            txtbxTime.Text = "";
+            
             txtbxZip.Text = "";
 
             rdbtn1.Checked = false;
