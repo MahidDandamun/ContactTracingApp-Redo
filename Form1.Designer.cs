@@ -36,7 +36,6 @@
             this.txtbxFname = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtbxContact = new System.Windows.Forms.TextBox();
-            this.txtbxDate = new System.Windows.Forms.TextBox();
             this.txtbxTime = new System.Windows.Forms.TextBox();
             this.txtbxAddress = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -95,6 +94,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.btnAnotherOne = new System.Windows.Forms.Button();
+            this.dtp1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl1.SuspendLayout();
@@ -176,13 +176,6 @@
             this.txtbxContact.Name = "txtbxContact";
             this.txtbxContact.Size = new System.Drawing.Size(235, 20);
             this.txtbxContact.TabIndex = 4;
-            // 
-            // txtbxDate
-            // 
-            this.txtbxDate.Location = new System.Drawing.Point(306, 128);
-            this.txtbxDate.Name = "txtbxDate";
-            this.txtbxDate.Size = new System.Drawing.Size(181, 20);
-            this.txtbxDate.TabIndex = 5;
             // 
             // txtbxTime
             // 
@@ -306,6 +299,7 @@
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
+            this.pnl1.Controls.Add(this.dtp1);
             this.pnl1.Controls.Add(this.label11);
             this.pnl1.Controls.Add(this.txtbxEmail);
             this.pnl1.Controls.Add(this.label10);
@@ -320,7 +314,6 @@
             this.pnl1.Controls.Add(this.label4);
             this.pnl1.Controls.Add(this.txtbxAddress);
             this.pnl1.Controls.Add(this.txtbxTime);
-            this.pnl1.Controls.Add(this.txtbxDate);
             this.pnl1.Controls.Add(this.txtbxContact);
             this.pnl1.Controls.Add(this.label2);
             this.pnl1.Controls.Add(this.txtbxFname);
@@ -400,7 +393,7 @@
             this.pnl2.Controls.Add(this.label12);
             this.pnl2.Controls.Add(this.label17);
             this.pnl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pnl2.Location = new System.Drawing.Point(25, 133);
+            this.pnl2.Location = new System.Drawing.Point(25, 136);
             this.pnl2.Name = "pnl2";
             this.pnl2.Size = new System.Drawing.Size(576, 380);
             this.pnl2.TabIndex = 23;
@@ -840,6 +833,16 @@
             this.btnAnotherOne.Visible = false;
             this.btnAnotherOne.Click += new System.EventHandler(this.btnAnotherOne_Click);
             // 
+            // dtp1
+            // 
+            this.dtp1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp1.Location = new System.Drawing.Point(306, 128);
+            this.dtp1.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
+            this.dtp1.MinDate = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
+            this.dtp1.Name = "dtp1";
+            this.dtp1.Size = new System.Drawing.Size(213, 20);
+            this.dtp1.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -896,7 +899,6 @@
         private System.Windows.Forms.TextBox txtbxFname;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtbxContact;
-        private System.Windows.Forms.TextBox txtbxDate;
         private System.Windows.Forms.TextBox txtbxTime;
         private System.Windows.Forms.TextBox txtbxAddress;
         private System.Windows.Forms.Label label4;
@@ -955,6 +957,7 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.DateTimePicker dtp1;
     }
 }
 

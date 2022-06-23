@@ -17,11 +17,10 @@ namespace Contact_tracing_app
         {
             InitializeComponent();              
         }
-
         private void btnNext_Click(object sender, EventArgs e)
         {
             if (((txtbxAddress.Text != "") && (txtbxFname.Text != "") && (txtbxEmail.Text != "") && (txtbxAge.Text != "")) &&
-               ((txtbxContact.Text != "") && (txtbxDate.Text != "") && (txtbxTemp.Text != "") && (txtbxTime.Text != "")) &&
+               ((txtbxContact.Text != "")  && (txtbxTemp.Text != "") && (txtbxTime.Text != "")) &&
                (txtbxZip.Text != ""))
             {
                 btnNext.Enabled = true;
@@ -34,13 +33,8 @@ namespace Contact_tracing_app
             else
             {
                 MessageBox.Show("Please fill in the fields");
-
             }
-
-
         }
-        
-        
         private void btnReturn_Click(object sender, EventArgs e)
         {
             pnl1.Visible = true;
@@ -66,7 +60,7 @@ namespace Contact_tracing_app
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " + txtbxTime.Text + " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
-                file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: " + txtbxDate.Text + " | ");
+                file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: "  + " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Zip code: " + txtbxZip.Text + " | " + " Age: " + txtbxAge.Text + " | " + " Temperature: " + txtbxTemp.Text);
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
@@ -162,12 +156,13 @@ namespace Contact_tracing_app
             txtbxAddress.Text = "";
             txtbxAge.Text = "";
             txtbxContact.Text = "";
-            txtbxDate.Text = "";
+            
             txtbxEmail.Text = "";
             txtbxFname.Text = "";
             txtbxTemp.Text = "";
             txtbxTime.Text = "";
             txtbxZip.Text = "";
+
             rdbtn1.Checked = false;
             rdbtn2.Checked = false;
             rdbtn3.Checked = false;
@@ -191,6 +186,5 @@ namespace Contact_tracing_app
             btnAnotherOne.Visible=false;
             btnNext.Visible = true;
         }
-       
     }
 }
