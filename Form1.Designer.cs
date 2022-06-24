@@ -92,8 +92,7 @@
             this.rdbtn2 = new System.Windows.Forms.RadioButton();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnAnotherOne = new System.Windows.Forms.Button();
-            this.btnReturn = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
+            this.lb1 = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl1.SuspendLayout();
@@ -290,6 +289,7 @@
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
+            this.pnl1.Controls.Add(this.lb1);
             this.pnl1.Controls.Add(this.groupBox9);
             this.pnl1.Controls.Add(this.groupBox8);
             this.pnl1.Controls.Add(this.groupBox7);
@@ -796,7 +796,6 @@
             this.btnSubmit.TabIndex = 22;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Visible = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnAnotherOne
@@ -811,27 +810,14 @@
             this.btnAnotherOne.Visible = false;
             this.btnAnotherOne.Click += new System.EventHandler(this.btnAnotherOne_Click);
             // 
-            // btnReturn
+            // lb1
             // 
-            this.btnReturn.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReturn.Location = new System.Drawing.Point(21, 774);
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(116, 33);
-            this.btnReturn.TabIndex = 21;
-            this.btnReturn.Text = "Return";
-            this.btnReturn.UseVisualStyleBackColor = true;
-            this.btnReturn.Visible = false;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
-            // 
-            // btnNext
-            // 
-            this.btnNext.Location = new System.Drawing.Point(489, 774);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(116, 31);
-            this.btnNext.TabIndex = 25;
-            this.btnNext.Text = "Next ";
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.lb1.FormattingEnabled = true;
+            this.lb1.Location = new System.Drawing.Point(42, 73);
+            this.lb1.Name = "lb1";
+            this.lb1.Size = new System.Drawing.Size(461, 277);
+            this.lb1.TabIndex = 36;
+            this.lb1.Visible = false;
             // 
             // Form1
             // 
@@ -839,10 +825,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(617, 831);
-            this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnAnotherOne);
             this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.pnl1);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Black;
@@ -933,8 +917,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Button btnAnotherOne;
-        private System.Windows.Forms.Button btnReturn;
-        private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.GroupBox groupBox7;
@@ -944,6 +926,7 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ListBox lb1;
     }
 }
 

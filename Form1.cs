@@ -17,22 +17,26 @@ namespace Contact_tracing_app
         {
             InitializeComponent();              
         }
-     
-        private void btnReturn_Click(object sender, EventArgs e)
-        {
-            pnl1.Visible = true;
-            btnSubmit.Visible=false;
-            btnNext.Visible=true;
-            btnReturn.Visible = false;
-        }
 
         private void btnSubmit_Click(object sender, EventArgs e)
-        {       
+        {
+            if ((txtbxAddress.Text != "") && (txtbxFname.Text != "") && (txtbxEmail.Text != "") && (txtbxAge.Text != "") &&
+              (txtbxContact.Text != "") && (txtbxTemp.Text != "") && (txtbxZip.Text != "") &&
+              ((rdbtn1.Checked != false) || (rdbtn2.Checked != false)) &&
+              ((rdbtn3.Checked != false) || (rdbtn4.Checked != false)) &&
+              ((rdbtn5.Checked != false) || (rdbtn6.Checked != false)) &&
+              ((rdbtn7.Checked != false) || (rdbtn8.Checked != false)) &&
+              ((rdbtn9.Checked != false) || (rdbtn10.Checked != false)) &&
+              ((rdbtn11.Checked != false) || (rdbtn12.Checked != false)) &&
+              ((rdbtn13.Checked != false) || (rdbtn14.Checked != false)) &&
+              ((rdbtn15.Checked != false) || (rdbtn16.Checked != false)) &&
+              ((rdbtn17.Checked != false) || (rdbtn18.Checked != false)))
+            {
                 StreamWriter file = new StreamWriter(@"E:\Downloads\Contact persons.txt", true);
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " + dtp2.Text + " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
-                file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: "  +dtp1.Text+ " | ");
+                file.WriteLine("Email: " + txtbxEmail.Text + " | " + " Contact number: " + txtbxContact.Text + " | " + " Date of visit: " + dtp1.Text + " | ");
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Zip code: " + txtbxZip.Text + " | " + " Age: " + txtbxAge.Text + " | " + " Temperature: " + txtbxTemp.Text);
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
@@ -113,10 +117,14 @@ namespace Contact_tracing_app
 
                 btnAnotherOne.Visible = true;
                 btnSubmit.Visible = false;
-                btnReturn.Visible = false;
-               
+                
+
                 pnl1.Visible = false;
-                MessageBox.Show("Your response has been recorded");       
+                MessageBox.Show("Your response has been recorded");
+            }
+            else
+                MessageBox.Show("Please fillthe fields properly");
+                  
         }
 
         private void btnAnotherOne_Click(object sender, EventArgs e)
@@ -153,34 +161,7 @@ namespace Contact_tracing_app
 
             pnl1.Visible = true;
             btnAnotherOne.Visible=false;
-            btnNext.Visible = true;
-        }
-
-        private void btnNext_Click(object sender, EventArgs e)
-        {
-            if ((txtbxAddress.Text != "") && (txtbxFname.Text != "") && (txtbxEmail.Text != "") && (txtbxAge.Text != "") &&
-                   (txtbxContact.Text != "") && (txtbxTemp.Text != "") && (txtbxZip.Text != "") &&
-                   ((rdbtn1.Checked != false) || (rdbtn2.Checked != false)) &&
-                   ((rdbtn3.Checked != false) || (rdbtn4.Checked != false)) &&
-                   ((rdbtn5.Checked != false) || (rdbtn6.Checked != false)) &&
-                   ((rdbtn7.Checked != false) || (rdbtn8.Checked != false)) &&
-                   ((rdbtn9.Checked != false) || (rdbtn10.Checked != false)) &&
-                   ((rdbtn11.Checked != false) || (rdbtn12.Checked != false)) &&
-                   ((rdbtn13.Checked != false) || (rdbtn14.Checked != false)) &&
-                   ((rdbtn15.Checked != false) || (rdbtn16.Checked != false)) &&
-                   ((rdbtn17.Checked != false) || (rdbtn18.Checked != false)))
-            {
-
-                pnl1.Visible = false;
-                btnNext.Visible = false;
-                btnReturn.Visible = true;
-                btnSubmit.Visible = true;
-
-            }
-
-            else
-                MessageBox.Show("Please fill in the fields properly");
-
+            btnSubmit.Visible = true;
         }
     }
 }
