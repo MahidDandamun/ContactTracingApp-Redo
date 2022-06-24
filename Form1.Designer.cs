@@ -41,7 +41,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtbxAge = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtbxTemp = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -92,8 +91,7 @@
             this.rdbtn2 = new System.Windows.Forms.RadioButton();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnAnotherOne = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.summaryOfInfos1 = new Contact_tracing_app.SummaryOfInfos();
+            this.cbAge = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl1.SuspendLayout();
@@ -115,7 +113,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(617, 100);
+            this.panel1.Size = new System.Drawing.Size(672, 100);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -226,13 +224,6 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Age:";
             // 
-            // txtbxAge
-            // 
-            this.txtbxAge.Location = new System.Drawing.Point(306, 187);
-            this.txtbxAge.Name = "txtbxAge";
-            this.txtbxAge.Size = new System.Drawing.Size(51, 20);
-            this.txtbxAge.TabIndex = 12;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -290,7 +281,7 @@
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
-            this.pnl1.Controls.Add(this.summaryOfInfos1);
+            this.pnl1.Controls.Add(this.cbAge);
             this.pnl1.Controls.Add(this.groupBox9);
             this.pnl1.Controls.Add(this.groupBox8);
             this.pnl1.Controls.Add(this.groupBox7);
@@ -315,7 +306,6 @@
             this.pnl1.Controls.Add(this.txtbxTemp);
             this.pnl1.Controls.Add(this.label8);
             this.pnl1.Controls.Add(this.label15);
-            this.pnl1.Controls.Add(this.txtbxAge);
             this.pnl1.Controls.Add(this.label7);
             this.pnl1.Controls.Add(this.label6);
             this.pnl1.Controls.Add(this.label5);
@@ -330,7 +320,7 @@
             this.pnl1.Controls.Add(this.label1);
             this.pnl1.Controls.Add(this.dtp1);
             this.pnl1.Controls.Add(this.groupBox1);
-            this.pnl1.Location = new System.Drawing.Point(0, 123);
+            this.pnl1.Location = new System.Drawing.Point(29, 123);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(617, 645);
             this.pnl1.TabIndex = 19;
@@ -791,19 +781,18 @@
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(241, 774);
+            this.btnSubmit.Location = new System.Drawing.Point(270, 773);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(116, 33);
             this.btnSubmit.TabIndex = 22;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Visible = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnAnotherOne
             // 
             this.btnAnotherOne.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnotherOne.Location = new System.Drawing.Point(241, 776);
+            this.btnAnotherOne.Location = new System.Drawing.Point(270, 774);
             this.btnAnotherOne.Name = "btnAnotherOne";
             this.btnAnotherOne.Size = new System.Drawing.Size(116, 32);
             this.btnAnotherOne.TabIndex = 24;
@@ -812,34 +801,123 @@
             this.btnAnotherOne.Visible = false;
             this.btnAnotherOne.Click += new System.EventHandler(this.btnAnotherOne_Click);
             // 
-            // btnNext
+            // cbAge
             // 
-            this.btnNext.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(476, 775);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(116, 33);
-            this.btnNext.TabIndex = 36;
-            this.btnNext.Text = "Next";
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
-            // 
-            // summaryOfInfos1
-            // 
-            this.summaryOfInfos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
-            this.summaryOfInfos1.Location = new System.Drawing.Point(3, -2);
-            this.summaryOfInfos1.Name = "summaryOfInfos1";
-            this.summaryOfInfos1.Size = new System.Drawing.Size(616, 647);
-            this.summaryOfInfos1.TabIndex = 37;
-            this.summaryOfInfos1.Visible = false;
+            this.cbAge.FormattingEnabled = true;
+            this.cbAge.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            ""});
+            this.cbAge.Location = new System.Drawing.Point(306, 187);
+            this.cbAge.Name = "cbAge";
+            this.cbAge.Size = new System.Drawing.Size(62, 21);
+            this.cbAge.TabIndex = 36;
             // 
             // FrmContacttracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
-            this.ClientSize = new System.Drawing.Size(617, 831);
+            this.ClientSize = new System.Drawing.Size(670, 831);
             this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnAnotherOne);
             this.Controls.Add(this.pnl1);
             this.Controls.Add(this.panel1);
@@ -889,7 +967,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtbxAge;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtbxTemp;
         private System.Windows.Forms.Label label9;
@@ -940,8 +1017,7 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnNext;
-        private SummaryOfInfos summaryOfInfos1;
+        private System.Windows.Forms.ComboBox cbAge;
     }
 }
 

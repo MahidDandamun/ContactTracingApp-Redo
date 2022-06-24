@@ -1,0 +1,131 @@
+[33mcommit c6070dc3ed92306a0397c3b14650834960faef33[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 24 17:37:04 2022 +0800
+
+    Next button is added again and usercontrol is added
+
+[33mcommit 0d9c0611fedc3a0369ade91637b9b229f7446472[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 24 16:31:39 2022 +0800
+
+     Next button and return button are removed
+
+[33mcommit df4eb99354a1d7c21e1b33d8533dfcaf6dfa622b[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 24 16:08:38 2022 +0800
+
+    Redesigned the form
+
+[33mcommit 7cedcacb81523fc7a8ba18d4f7af28d40c96fd28[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 24 00:13:53 2022 +0800
+
+    The textbox for time is changed into date time picker for time
+
+[33mcommit 0264b95338a611334edfb31dabf5c19ad7d07e31[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Thu Jun 23 23:55:05 2022 +0800
+
+    file write line for date time picker is now working
+
+[33mcommit f2a9c5e4ad6a78082ec0121094f4c4788bb5d2a8[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Thu Jun 23 23:45:24 2022 +0800
+
+    Textbox for date changed into date time picker
+
+[33mcommit cc05f6cf1deccb33dce03715f12c043c0003fe80[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 15:12:36 2022 +0800
+
+    File name changed
+
+[33mcommit 1fbf4ca098c4c8de6f33b247c8c0749d26523359[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 15:10:21 2022 +0800
+
+    Font size and font style changed, Color scheme changed, and logo was replaced
+
+[33mcommit 493465bfcaed5a3aa954c2ba1bd64fb3f232a5a4[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 13:43:44 2022 +0800
+
+    Writerline content is edited slightly for clearance of sentences
+
+[33mcommit b008a435112b3856fb53c187759d04d8cea4a2f7[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 13:31:40 2022 +0800
+
+    The blank detector in the radiobutton is now working, the program won't submit if the radio buttons are not clicked
+
+[33mcommit 35b27543694c19004b41fd4d59ab9d94ceaefb7e[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 12:37:42 2022 +0800
+
+    logic in the blank detector is corrected
+
+[33mcommit 3105458aafd2bbb148beff938a6ef23fb90aab35[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 12:16:49 2022 +0800
+
+    blank Detector, if field is  blank then the form won't proceed
+
+[33mcommit ffb2b5727d08938d00222f1e53c3a35ecfdc22d1[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 08:48:08 2022 +0800
+
+    Add anotherone buttone is now working
+
+[33mcommit 2437d95448a8b414a176bb32ac0138dc1370fe3c[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 08:13:57 2022 +0800
+
+    Create another form button is added
+
+[33mcommit 666c76b6aaa9c7e3cab8d061a5ca0c91702fe7ed[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 08:09:03 2022 +0800
+
+    The writeline of all radio buttons are now complete
+
+[33mcommit 2a6ae183bb94c673f2e944acfbd2bb308da8e144[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 07:32:01 2022 +0800
+
+    Write line for radio button is now workign
+
+[33mcommit cab8b2a287e21dde1626fbc849934ddee0add7ac[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 06:21:28 2022 +0800
+
+    Personal information Writeline is now working
+
+[33mcommit d5314c979c28c058d7f37d8be070ac8ed143ad16[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 06:06:30 2022 +0800
+
+    Fullname writeline is now working
+
+[33mcommit d8756c10a40708859f6df411c181e606852ec243[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 06:01:12 2022 +0800
+
+    Questionnaire is done and there are now radio buttons
+
+[33mcommit 4ace7ed7da2dc6aa2b7d63cf2750d42aee686a06[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 05:49:13 2022 +0800
+
+    Next and return button is now working, Design is almost finished
+
+[33mcommit 357437e200f4b7a5483d1f39d60fe06aaa835f11[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 04:56:58 2022 +0800
+
+    Initial design
+
+[33mcommit 6a0f9c2de854bcc8c3be2f48f842d66dc5454e35[m
+Author: MahidDandamun <Dandamunmahid@gmail.com>
+Date:   Fri Jun 10 04:33:32 2022 +0800
+
+    Initial Commit
