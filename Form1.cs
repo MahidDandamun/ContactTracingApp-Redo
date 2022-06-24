@@ -11,27 +11,15 @@ using System.IO;
 
 namespace Contact_tracing_app
 {
-    public partial class Form1 : Form
+    public partial class FrmContacttracing : Form
     {
-        public Form1()
+        public FrmContacttracing()
         {
             InitializeComponent();              
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            if ((txtbxAddress.Text != "") && (txtbxFname.Text != "") && (txtbxEmail.Text != "") && (txtbxAge.Text != "") &&
-              (txtbxContact.Text != "") && (txtbxTemp.Text != "") && (txtbxZip.Text != "") &&
-              ((rdbtn1.Checked != false) || (rdbtn2.Checked != false)) &&
-              ((rdbtn3.Checked != false) || (rdbtn4.Checked != false)) &&
-              ((rdbtn5.Checked != false) || (rdbtn6.Checked != false)) &&
-              ((rdbtn7.Checked != false) || (rdbtn8.Checked != false)) &&
-              ((rdbtn9.Checked != false) || (rdbtn10.Checked != false)) &&
-              ((rdbtn11.Checked != false) || (rdbtn12.Checked != false)) &&
-              ((rdbtn13.Checked != false) || (rdbtn14.Checked != false)) &&
-              ((rdbtn15.Checked != false) || (rdbtn16.Checked != false)) &&
-              ((rdbtn17.Checked != false) || (rdbtn18.Checked != false)))
-            {
                 StreamWriter file = new StreamWriter(@"E:\Downloads\Contact persons.txt", true);
                 file.WriteLine("-------------------------------------------------------------------------------------------------------------------------" + " | ");
                 file.WriteLine("Fullname: " + txtbxFname.Text + " | " + " Address: " + txtbxAddress.Text + " | " + " Time of visit: " + dtp2.Text + " | ");
@@ -113,18 +101,13 @@ namespace Contact_tracing_app
                     file.WriteLine("Question9: No");
                 }
                 file.Close();
-
-
-                btnAnotherOne.Visible = true;
-                btnSubmit.Visible = false;
                 
+                btnSubmit.Visible = false;
+                btnAnotherOne.Visible = true;
 
-                pnl1.Visible = false;
-                MessageBox.Show("Your response has been recorded");
-            }
-            else
-                MessageBox.Show("Please fillthe fields properly");
-                  
+
+
+                MessageBox.Show("Your response has been recorded");              
         }
 
         private void btnAnotherOne_Click(object sender, EventArgs e)
@@ -161,7 +144,32 @@ namespace Contact_tracing_app
 
             pnl1.Visible = true;
             btnAnotherOne.Visible=false;
-            btnSubmit.Visible = true;
+            btnSubmit.Visible = false;
+            btnNext.Visible = true;
+            summaryOfInfos1.Hide();
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            if ((txtbxAddress.Text != "") && (txtbxFname.Text != "") && (txtbxEmail.Text != "") && (txtbxAge.Text != "") &&
+              (txtbxContact.Text != "") && (txtbxTemp.Text != "") && (txtbxZip.Text != "") &&
+              ((rdbtn1.Checked != false) || (rdbtn2.Checked != false)) &&
+              ((rdbtn3.Checked != false) || (rdbtn4.Checked != false)) &&
+              ((rdbtn5.Checked != false) || (rdbtn6.Checked != false)) &&
+              ((rdbtn7.Checked != false) || (rdbtn8.Checked != false)) &&
+              ((rdbtn9.Checked != false) || (rdbtn10.Checked != false)) &&
+              ((rdbtn11.Checked != false) || (rdbtn12.Checked != false)) &&
+              ((rdbtn13.Checked != false) || (rdbtn14.Checked != false)) &&
+              ((rdbtn15.Checked != false) || (rdbtn16.Checked != false)) &&
+              ((rdbtn17.Checked != false) || (rdbtn18.Checked != false)))
+            {
+                pnl1.Hide();
+                btnSubmit.Visible = true;
+                btnNext.Visible = false;
+                summaryOfInfos1.Visible = true;
+            }
+            else
+                MessageBox.Show("Please fill in the fields properly");
         }
     }
 }

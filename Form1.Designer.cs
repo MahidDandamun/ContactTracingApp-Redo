@@ -1,6 +1,6 @@
 ﻿namespace Contact_tracing_app
 {
-    partial class Form1
+    partial class FrmContacttracing
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmContacttracing));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -92,7 +92,8 @@
             this.rdbtn2 = new System.Windows.Forms.RadioButton();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnAnotherOne = new System.Windows.Forms.Button();
-            this.lb1 = new System.Windows.Forms.ListBox();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.summaryOfInfos1 = new Contact_tracing_app.SummaryOfInfos();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl1.SuspendLayout();
@@ -289,7 +290,7 @@
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
-            this.pnl1.Controls.Add(this.lb1);
+            this.pnl1.Controls.Add(this.summaryOfInfos1);
             this.pnl1.Controls.Add(this.groupBox9);
             this.pnl1.Controls.Add(this.groupBox8);
             this.pnl1.Controls.Add(this.groupBox7);
@@ -329,7 +330,7 @@
             this.pnl1.Controls.Add(this.label1);
             this.pnl1.Controls.Add(this.dtp1);
             this.pnl1.Controls.Add(this.groupBox1);
-            this.pnl1.Location = new System.Drawing.Point(0, 121);
+            this.pnl1.Location = new System.Drawing.Point(0, 123);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(617, 645);
             this.pnl1.TabIndex = 19;
@@ -790,18 +791,19 @@
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(489, 774);
+            this.btnSubmit.Location = new System.Drawing.Point(241, 774);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(116, 33);
             this.btnSubmit.TabIndex = 22;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Visible = false;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnAnotherOne
             // 
             this.btnAnotherOne.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnotherOne.Location = new System.Drawing.Point(241, 774);
+            this.btnAnotherOne.Location = new System.Drawing.Point(241, 776);
             this.btnAnotherOne.Name = "btnAnotherOne";
             this.btnAnotherOne.Size = new System.Drawing.Size(116, 32);
             this.btnAnotherOne.TabIndex = 24;
@@ -810,29 +812,41 @@
             this.btnAnotherOne.Visible = false;
             this.btnAnotherOne.Click += new System.EventHandler(this.btnAnotherOne_Click);
             // 
-            // lb1
+            // btnNext
             // 
-            this.lb1.FormattingEnabled = true;
-            this.lb1.Location = new System.Drawing.Point(42, 73);
-            this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(461, 277);
-            this.lb1.TabIndex = 36;
-            this.lb1.Visible = false;
+            this.btnNext.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNext.Location = new System.Drawing.Point(476, 775);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(116, 33);
+            this.btnNext.TabIndex = 36;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // Form1
+            // summaryOfInfos1
+            // 
+            this.summaryOfInfos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
+            this.summaryOfInfos1.Location = new System.Drawing.Point(3, -2);
+            this.summaryOfInfos1.Name = "summaryOfInfos1";
+            this.summaryOfInfos1.Size = new System.Drawing.Size(616, 647);
+            this.summaryOfInfos1.TabIndex = 37;
+            this.summaryOfInfos1.Visible = false;
+            // 
+            // FrmContacttracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(617, 831);
-            this.Controls.Add(this.btnAnotherOne);
             this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnAnotherOne);
             this.Controls.Add(this.pnl1);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FrmContacttracing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -926,7 +940,8 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListBox lb1;
+        private System.Windows.Forms.Button btnNext;
+        private SummaryOfInfos summaryOfInfos1;
     }
 }
 
