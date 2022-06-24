@@ -49,64 +49,62 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtbxEmail = new System.Windows.Forms.TextBox();
             this.pnl1 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.btnReturn = new System.Windows.Forms.Button();
-            this.btnSubmit = new System.Windows.Forms.Button();
-            this.pnl2 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.rdbtn4 = new System.Windows.Forms.RadioButton();
-            this.rdbtn3 = new System.Windows.Forms.RadioButton();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.rdbtn12 = new System.Windows.Forms.RadioButton();
-            this.rdbtn11 = new System.Windows.Forms.RadioButton();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.rdbtn10 = new System.Windows.Forms.RadioButton();
-            this.rdbtn9 = new System.Windows.Forms.RadioButton();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.rdbtn8 = new System.Windows.Forms.RadioButton();
-            this.rdbtn7 = new System.Windows.Forms.RadioButton();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.rdbtn6 = new System.Windows.Forms.RadioButton();
-            this.rdbtn5 = new System.Windows.Forms.RadioButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rdbtn13 = new System.Windows.Forms.RadioButton();
-            this.rdbtn14 = new System.Windows.Forms.RadioButton();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.rdbtn18 = new System.Windows.Forms.RadioButton();
-            this.rdbtn17 = new System.Windows.Forms.RadioButton();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.rdbtn16 = new System.Windows.Forms.RadioButton();
             this.rdbtn15 = new System.Windows.Forms.RadioButton();
+            this.rdbtn16 = new System.Windows.Forms.RadioButton();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.rdbtn17 = new System.Windows.Forms.RadioButton();
+            this.rdbtn18 = new System.Windows.Forms.RadioButton();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.rdbtn14 = new System.Windows.Forms.RadioButton();
+            this.rdbtn13 = new System.Windows.Forms.RadioButton();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.rdbtn11 = new System.Windows.Forms.RadioButton();
+            this.rdbtn12 = new System.Windows.Forms.RadioButton();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.rdbtn9 = new System.Windows.Forms.RadioButton();
+            this.rdbtn10 = new System.Windows.Forms.RadioButton();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.rdbtn7 = new System.Windows.Forms.RadioButton();
+            this.rdbtn8 = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.rdbtn5 = new System.Windows.Forms.RadioButton();
+            this.rdbtn6 = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.rdbtn3 = new System.Windows.Forms.RadioButton();
+            this.rdbtn4 = new System.Windows.Forms.RadioButton();
+            this.label16 = new System.Windows.Forms.Label();
+            this.dtp2 = new System.Windows.Forms.DateTimePicker();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.dtp1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rdbtn1 = new System.Windows.Forms.RadioButton();
             this.rdbtn2 = new System.Windows.Forms.RadioButton();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.btnAnotherOne = new System.Windows.Forms.Button();
-            this.dtp1 = new System.Windows.Forms.DateTimePicker();
-            this.dtp2 = new System.Windows.Forms.DateTimePicker();
+            this.btnReturn = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl1.SuspendLayout();
-            this.pnl2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox7.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.groupBox8.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -292,178 +290,167 @@
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
+            this.pnl1.Controls.Add(this.groupBox9);
+            this.pnl1.Controls.Add(this.groupBox8);
+            this.pnl1.Controls.Add(this.groupBox7);
+            this.pnl1.Controls.Add(this.groupBox6);
+            this.pnl1.Controls.Add(this.groupBox5);
+            this.pnl1.Controls.Add(this.groupBox4);
+            this.pnl1.Controls.Add(this.groupBox3);
+            this.pnl1.Controls.Add(this.groupBox2);
+            this.pnl1.Controls.Add(this.label16);
             this.pnl1.Controls.Add(this.dtp2);
+            this.pnl1.Controls.Add(this.label19);
+            this.pnl1.Controls.Add(this.label14);
+            this.pnl1.Controls.Add(this.label13);
+            this.pnl1.Controls.Add(this.label22);
             this.pnl1.Controls.Add(this.label11);
+            this.pnl1.Controls.Add(this.label21);
             this.pnl1.Controls.Add(this.txtbxEmail);
             this.pnl1.Controls.Add(this.label10);
+            this.pnl1.Controls.Add(this.label20);
             this.pnl1.Controls.Add(this.txtbxZip);
             this.pnl1.Controls.Add(this.label9);
             this.pnl1.Controls.Add(this.txtbxTemp);
             this.pnl1.Controls.Add(this.label8);
+            this.pnl1.Controls.Add(this.label15);
             this.pnl1.Controls.Add(this.txtbxAge);
             this.pnl1.Controls.Add(this.label7);
             this.pnl1.Controls.Add(this.label6);
             this.pnl1.Controls.Add(this.label5);
             this.pnl1.Controls.Add(this.label4);
+            this.pnl1.Controls.Add(this.label18);
             this.pnl1.Controls.Add(this.txtbxAddress);
             this.pnl1.Controls.Add(this.txtbxContact);
             this.pnl1.Controls.Add(this.label2);
             this.pnl1.Controls.Add(this.txtbxFname);
+            this.pnl1.Controls.Add(this.label17);
+            this.pnl1.Controls.Add(this.label12);
             this.pnl1.Controls.Add(this.label1);
             this.pnl1.Controls.Add(this.dtp1);
-            this.pnl1.Location = new System.Drawing.Point(25, 133);
+            this.pnl1.Controls.Add(this.groupBox1);
+            this.pnl1.Location = new System.Drawing.Point(0, 121);
             this.pnl1.Name = "pnl1";
-            this.pnl1.Size = new System.Drawing.Size(546, 380);
+            this.pnl1.Size = new System.Drawing.Size(617, 645);
             this.pnl1.TabIndex = 19;
             // 
-            // label11
+            // groupBox9
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label11.Location = new System.Drawing.Point(18, 11);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(266, 39);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "PERSONAL INFORMATION";
+            this.groupBox9.Controls.Add(this.rdbtn15);
+            this.groupBox9.Controls.Add(this.rdbtn16);
+            this.groupBox9.Location = new System.Drawing.Point(471, 422);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(99, 27);
+            this.groupBox9.TabIndex = 29;
+            this.groupBox9.TabStop = false;
             // 
-            // btnNext
+            // rdbtn15
             // 
-            this.btnNext.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(455, 554);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(116, 33);
-            this.btnNext.TabIndex = 20;
-            this.btnNext.Text = "Next";
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.rdbtn15.AutoSize = true;
+            this.rdbtn15.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn15.Location = new System.Drawing.Point(4, 7);
+            this.rdbtn15.Name = "rdbtn15";
+            this.rdbtn15.Size = new System.Drawing.Size(43, 17);
+            this.rdbtn15.TabIndex = 17;
+            this.rdbtn15.TabStop = true;
+            this.rdbtn15.Text = "Yes";
+            this.rdbtn15.UseVisualStyleBackColor = true;
             // 
-            // btnReturn
+            // rdbtn16
             // 
-            this.btnReturn.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReturn.Location = new System.Drawing.Point(25, 553);
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(116, 33);
-            this.btnReturn.TabIndex = 21;
-            this.btnReturn.Text = "Return";
-            this.btnReturn.UseVisualStyleBackColor = true;
-            this.btnReturn.Visible = false;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            this.rdbtn16.AutoSize = true;
+            this.rdbtn16.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn16.Location = new System.Drawing.Point(54, 7);
+            this.rdbtn16.Name = "rdbtn16";
+            this.rdbtn16.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn16.TabIndex = 18;
+            this.rdbtn16.TabStop = true;
+            this.rdbtn16.Text = "No";
+            this.rdbtn16.UseVisualStyleBackColor = true;
             // 
-            // btnSubmit
+            // groupBox8
             // 
-            this.btnSubmit.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(455, 544);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(116, 33);
-            this.btnSubmit.TabIndex = 22;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Visible = false;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            this.groupBox8.Controls.Add(this.rdbtn17);
+            this.groupBox8.Controls.Add(this.rdbtn18);
+            this.groupBox8.Location = new System.Drawing.Point(471, 456);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(99, 27);
+            this.groupBox8.TabIndex = 35;
+            this.groupBox8.TabStop = false;
             // 
-            // pnl2
+            // rdbtn17
             // 
-            this.pnl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
-            this.pnl2.Controls.Add(this.label16);
-            this.pnl2.Controls.Add(this.groupBox3);
-            this.pnl2.Controls.Add(this.groupBox6);
-            this.pnl2.Controls.Add(this.groupBox5);
-            this.pnl2.Controls.Add(this.groupBox4);
-            this.pnl2.Controls.Add(this.groupBox7);
-            this.pnl2.Controls.Add(this.groupBox2);
-            this.pnl2.Controls.Add(this.groupBox9);
-            this.pnl2.Controls.Add(this.groupBox8);
-            this.pnl2.Controls.Add(this.groupBox1);
-            this.pnl2.Controls.Add(this.label22);
-            this.pnl2.Controls.Add(this.label21);
-            this.pnl2.Controls.Add(this.label20);
-            this.pnl2.Controls.Add(this.label19);
-            this.pnl2.Controls.Add(this.label18);
-            this.pnl2.Controls.Add(this.label15);
-            this.pnl2.Controls.Add(this.label14);
-            this.pnl2.Controls.Add(this.label13);
-            this.pnl2.Controls.Add(this.label12);
-            this.pnl2.Controls.Add(this.label17);
-            this.pnl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pnl2.Location = new System.Drawing.Point(25, 133);
-            this.pnl2.Name = "pnl2";
-            this.pnl2.Size = new System.Drawing.Size(576, 380);
-            this.pnl2.TabIndex = 23;
-            this.pnl2.Visible = false;
+            this.rdbtn17.AutoSize = true;
+            this.rdbtn17.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn17.Location = new System.Drawing.Point(4, 7);
+            this.rdbtn17.Name = "rdbtn17";
+            this.rdbtn17.Size = new System.Drawing.Size(43, 17);
+            this.rdbtn17.TabIndex = 17;
+            this.rdbtn17.TabStop = true;
+            this.rdbtn17.Text = "Yes";
+            this.rdbtn17.UseVisualStyleBackColor = true;
             // 
-            // label16
+            // rdbtn18
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label16.Location = new System.Drawing.Point(19, 175);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(121, 13);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "Lost of smell and taste";
+            this.rdbtn18.AutoSize = true;
+            this.rdbtn18.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn18.Location = new System.Drawing.Point(54, 7);
+            this.rdbtn18.Name = "rdbtn18";
+            this.rdbtn18.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn18.TabIndex = 18;
+            this.rdbtn18.TabStop = true;
+            this.rdbtn18.Text = "No";
+            this.rdbtn18.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
+            // groupBox7
             // 
-            this.groupBox3.Controls.Add(this.rdbtn4);
-            this.groupBox3.Controls.Add(this.rdbtn3);
-            this.groupBox3.Location = new System.Drawing.Point(141, 160);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(103, 38);
-            this.groupBox3.TabIndex = 36;
-            this.groupBox3.TabStop = false;
+            this.groupBox7.Controls.Add(this.rdbtn14);
+            this.groupBox7.Controls.Add(this.rdbtn13);
+            this.groupBox7.Location = new System.Drawing.Point(471, 383);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(99, 27);
+            this.groupBox7.TabIndex = 34;
+            this.groupBox7.TabStop = false;
             // 
-            // rdbtn4
+            // rdbtn14
             // 
-            this.rdbtn4.AutoSize = true;
-            this.rdbtn4.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn4.Location = new System.Drawing.Point(54, 15);
-            this.rdbtn4.Name = "rdbtn4";
-            this.rdbtn4.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn4.TabIndex = 20;
-            this.rdbtn4.TabStop = true;
-            this.rdbtn4.Text = "No";
-            this.rdbtn4.UseVisualStyleBackColor = true;
+            this.rdbtn14.AutoSize = true;
+            this.rdbtn14.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn14.Location = new System.Drawing.Point(54, 7);
+            this.rdbtn14.Name = "rdbtn14";
+            this.rdbtn14.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn14.TabIndex = 18;
+            this.rdbtn14.TabStop = true;
+            this.rdbtn14.Text = "No";
+            this.rdbtn14.UseVisualStyleBackColor = true;
             // 
-            // rdbtn3
+            // rdbtn13
             // 
-            this.rdbtn3.AutoSize = true;
-            this.rdbtn3.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn3.Location = new System.Drawing.Point(7, 15);
-            this.rdbtn3.Name = "rdbtn3";
-            this.rdbtn3.Size = new System.Drawing.Size(43, 17);
-            this.rdbtn3.TabIndex = 19;
-            this.rdbtn3.TabStop = true;
-            this.rdbtn3.Text = "Yes";
-            this.rdbtn3.UseVisualStyleBackColor = true;
+            this.rdbtn13.AutoSize = true;
+            this.rdbtn13.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn13.Location = new System.Drawing.Point(5, 7);
+            this.rdbtn13.Name = "rdbtn13";
+            this.rdbtn13.Size = new System.Drawing.Size(43, 17);
+            this.rdbtn13.TabIndex = 19;
+            this.rdbtn13.TabStop = true;
+            this.rdbtn13.Text = "Yes";
+            this.rdbtn13.UseVisualStyleBackColor = true;
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.rdbtn12);
             this.groupBox6.Controls.Add(this.rdbtn11);
-            this.groupBox6.Location = new System.Drawing.Point(140, 318);
+            this.groupBox6.Controls.Add(this.rdbtn12);
+            this.groupBox6.Location = new System.Drawing.Point(147, 578);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(106, 25);
-            this.groupBox6.TabIndex = 39;
+            this.groupBox6.Size = new System.Drawing.Size(99, 27);
+            this.groupBox6.TabIndex = 33;
             this.groupBox6.TabStop = false;
-            // 
-            // rdbtn12
-            // 
-            this.rdbtn12.AutoSize = true;
-            this.rdbtn12.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn12.Location = new System.Drawing.Point(54, 6);
-            this.rdbtn12.Name = "rdbtn12";
-            this.rdbtn12.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn12.TabIndex = 24;
-            this.rdbtn12.TabStop = true;
-            this.rdbtn12.Text = "No";
-            this.rdbtn12.UseVisualStyleBackColor = true;
             // 
             // rdbtn11
             // 
             this.rdbtn11.AutoSize = true;
             this.rdbtn11.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn11.Location = new System.Drawing.Point(7, 6);
+            this.rdbtn11.Location = new System.Drawing.Point(6, 7);
             this.rdbtn11.Name = "rdbtn11";
             this.rdbtn11.Size = new System.Drawing.Size(43, 17);
             this.rdbtn11.TabIndex = 23;
@@ -471,33 +458,33 @@
             this.rdbtn11.Text = "Yes";
             this.rdbtn11.UseVisualStyleBackColor = true;
             // 
+            // rdbtn12
+            // 
+            this.rdbtn12.AutoSize = true;
+            this.rdbtn12.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn12.Location = new System.Drawing.Point(53, 7);
+            this.rdbtn12.Name = "rdbtn12";
+            this.rdbtn12.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn12.TabIndex = 24;
+            this.rdbtn12.TabStop = true;
+            this.rdbtn12.Text = "No";
+            this.rdbtn12.UseVisualStyleBackColor = true;
+            // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.rdbtn10);
             this.groupBox5.Controls.Add(this.rdbtn9);
-            this.groupBox5.Location = new System.Drawing.Point(143, 277);
+            this.groupBox5.Controls.Add(this.rdbtn10);
+            this.groupBox5.Location = new System.Drawing.Point(147, 538);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(102, 26);
-            this.groupBox5.TabIndex = 38;
+            this.groupBox5.Size = new System.Drawing.Size(99, 27);
+            this.groupBox5.TabIndex = 32;
             this.groupBox5.TabStop = false;
-            // 
-            // rdbtn10
-            // 
-            this.rdbtn10.AutoSize = true;
-            this.rdbtn10.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn10.Location = new System.Drawing.Point(51, 7);
-            this.rdbtn10.Name = "rdbtn10";
-            this.rdbtn10.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn10.TabIndex = 24;
-            this.rdbtn10.TabStop = true;
-            this.rdbtn10.Text = "No";
-            this.rdbtn10.UseVisualStyleBackColor = true;
             // 
             // rdbtn9
             // 
             this.rdbtn9.AutoSize = true;
             this.rdbtn9.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn9.Location = new System.Drawing.Point(3, 7);
+            this.rdbtn9.Location = new System.Drawing.Point(6, 8);
             this.rdbtn9.Name = "rdbtn9";
             this.rdbtn9.Size = new System.Drawing.Size(43, 17);
             this.rdbtn9.TabIndex = 23;
@@ -505,27 +492,27 @@
             this.rdbtn9.Text = "Yes";
             this.rdbtn9.UseVisualStyleBackColor = true;
             // 
+            // rdbtn10
+            // 
+            this.rdbtn10.AutoSize = true;
+            this.rdbtn10.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn10.Location = new System.Drawing.Point(53, 8);
+            this.rdbtn10.Name = "rdbtn10";
+            this.rdbtn10.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn10.TabIndex = 24;
+            this.rdbtn10.TabStop = true;
+            this.rdbtn10.Text = "No";
+            this.rdbtn10.UseVisualStyleBackColor = true;
+            // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.rdbtn8);
             this.groupBox4.Controls.Add(this.rdbtn7);
-            this.groupBox4.Location = new System.Drawing.Point(141, 238);
+            this.groupBox4.Controls.Add(this.rdbtn8);
+            this.groupBox4.Location = new System.Drawing.Point(147, 499);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(105, 27);
-            this.groupBox4.TabIndex = 37;
+            this.groupBox4.Size = new System.Drawing.Size(99, 27);
+            this.groupBox4.TabIndex = 31;
             this.groupBox4.TabStop = false;
-            // 
-            // rdbtn8
-            // 
-            this.rdbtn8.AutoSize = true;
-            this.rdbtn8.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn8.Location = new System.Drawing.Point(53, 8);
-            this.rdbtn8.Name = "rdbtn8";
-            this.rdbtn8.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn8.TabIndex = 24;
-            this.rdbtn8.TabStop = true;
-            this.rdbtn8.Text = "No";
-            this.rdbtn8.UseVisualStyleBackColor = true;
             // 
             // rdbtn7
             // 
@@ -539,33 +526,33 @@
             this.rdbtn7.Text = "Yes";
             this.rdbtn7.UseVisualStyleBackColor = true;
             // 
-            // groupBox7
+            // rdbtn8
             // 
-            this.groupBox7.Controls.Add(this.rdbtn6);
-            this.groupBox7.Controls.Add(this.rdbtn5);
-            this.groupBox7.Location = new System.Drawing.Point(142, 200);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(103, 28);
-            this.groupBox7.TabIndex = 35;
-            this.groupBox7.TabStop = false;
+            this.rdbtn8.AutoSize = true;
+            this.rdbtn8.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn8.Location = new System.Drawing.Point(53, 8);
+            this.rdbtn8.Name = "rdbtn8";
+            this.rdbtn8.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn8.TabIndex = 24;
+            this.rdbtn8.TabStop = true;
+            this.rdbtn8.Text = "No";
+            this.rdbtn8.UseVisualStyleBackColor = true;
             // 
-            // rdbtn6
+            // groupBox3
             // 
-            this.rdbtn6.AutoSize = true;
-            this.rdbtn6.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn6.Location = new System.Drawing.Point(52, 9);
-            this.rdbtn6.Name = "rdbtn6";
-            this.rdbtn6.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn6.TabIndex = 22;
-            this.rdbtn6.TabStop = true;
-            this.rdbtn6.Text = "No";
-            this.rdbtn6.UseVisualStyleBackColor = true;
+            this.groupBox3.Controls.Add(this.rdbtn5);
+            this.groupBox3.Controls.Add(this.rdbtn6);
+            this.groupBox3.Location = new System.Drawing.Point(147, 465);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(99, 27);
+            this.groupBox3.TabIndex = 30;
+            this.groupBox3.TabStop = false;
             // 
             // rdbtn5
             // 
             this.rdbtn5.AutoSize = true;
             this.rdbtn5.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn5.Location = new System.Drawing.Point(5, 9);
+            this.rdbtn5.Location = new System.Drawing.Point(6, 7);
             this.rdbtn5.Name = "rdbtn5";
             this.rdbtn5.Size = new System.Drawing.Size(43, 17);
             this.rdbtn5.TabIndex = 21;
@@ -573,268 +560,62 @@
             this.rdbtn5.Text = "Yes";
             this.rdbtn5.UseVisualStyleBackColor = true;
             // 
+            // rdbtn6
+            // 
+            this.rdbtn6.AutoSize = true;
+            this.rdbtn6.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn6.Location = new System.Drawing.Point(53, 7);
+            this.rdbtn6.Name = "rdbtn6";
+            this.rdbtn6.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn6.TabIndex = 22;
+            this.rdbtn6.TabStop = true;
+            this.rdbtn6.Text = "No";
+            this.rdbtn6.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.rdbtn13);
-            this.groupBox2.Controls.Add(this.rdbtn14);
-            this.groupBox2.Location = new System.Drawing.Point(462, 125);
+            this.groupBox2.Controls.Add(this.rdbtn3);
+            this.groupBox2.Controls.Add(this.rdbtn4);
+            this.groupBox2.Location = new System.Drawing.Point(147, 419);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(93, 29);
-            this.groupBox2.TabIndex = 34;
+            this.groupBox2.Size = new System.Drawing.Size(99, 27);
+            this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
             // 
-            // rdbtn13
+            // rdbtn3
             // 
-            this.rdbtn13.AutoSize = true;
-            this.rdbtn13.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn13.Location = new System.Drawing.Point(6, 8);
-            this.rdbtn13.Name = "rdbtn13";
-            this.rdbtn13.Size = new System.Drawing.Size(43, 17);
-            this.rdbtn13.TabIndex = 19;
-            this.rdbtn13.TabStop = true;
-            this.rdbtn13.Text = "Yes";
-            this.rdbtn13.UseVisualStyleBackColor = true;
+            this.rdbtn3.AutoSize = true;
+            this.rdbtn3.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn3.Location = new System.Drawing.Point(6, 7);
+            this.rdbtn3.Name = "rdbtn3";
+            this.rdbtn3.Size = new System.Drawing.Size(43, 17);
+            this.rdbtn3.TabIndex = 19;
+            this.rdbtn3.TabStop = true;
+            this.rdbtn3.Text = "Yes";
+            this.rdbtn3.UseVisualStyleBackColor = true;
             // 
-            // rdbtn14
+            // rdbtn4
             // 
-            this.rdbtn14.AutoSize = true;
-            this.rdbtn14.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn14.Location = new System.Drawing.Point(50, 8);
-            this.rdbtn14.Name = "rdbtn14";
-            this.rdbtn14.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn14.TabIndex = 18;
-            this.rdbtn14.TabStop = true;
-            this.rdbtn14.Text = "No";
-            this.rdbtn14.UseVisualStyleBackColor = true;
+            this.rdbtn4.AutoSize = true;
+            this.rdbtn4.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn4.Location = new System.Drawing.Point(53, 7);
+            this.rdbtn4.Name = "rdbtn4";
+            this.rdbtn4.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn4.TabIndex = 20;
+            this.rdbtn4.TabStop = true;
+            this.rdbtn4.Text = "No";
+            this.rdbtn4.UseVisualStyleBackColor = true;
             // 
-            // groupBox9
+            // label16
             // 
-            this.groupBox9.Controls.Add(this.rdbtn18);
-            this.groupBox9.Controls.Add(this.rdbtn17);
-            this.groupBox9.Location = new System.Drawing.Point(458, 197);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(115, 36);
-            this.groupBox9.TabIndex = 33;
-            this.groupBox9.TabStop = false;
-            // 
-            // rdbtn18
-            // 
-            this.rdbtn18.AutoSize = true;
-            this.rdbtn18.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn18.Location = new System.Drawing.Point(52, 9);
-            this.rdbtn18.Name = "rdbtn18";
-            this.rdbtn18.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn18.TabIndex = 18;
-            this.rdbtn18.TabStop = true;
-            this.rdbtn18.Text = "No";
-            this.rdbtn18.UseVisualStyleBackColor = true;
-            // 
-            // rdbtn17
-            // 
-            this.rdbtn17.AutoSize = true;
-            this.rdbtn17.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn17.Location = new System.Drawing.Point(9, 9);
-            this.rdbtn17.Name = "rdbtn17";
-            this.rdbtn17.Size = new System.Drawing.Size(43, 17);
-            this.rdbtn17.TabIndex = 17;
-            this.rdbtn17.TabStop = true;
-            this.rdbtn17.Text = "Yes";
-            this.rdbtn17.UseVisualStyleBackColor = true;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.rdbtn16);
-            this.groupBox8.Controls.Add(this.rdbtn15);
-            this.groupBox8.Location = new System.Drawing.Point(461, 158);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(93, 39);
-            this.groupBox8.TabIndex = 32;
-            this.groupBox8.TabStop = false;
-            // 
-            // rdbtn16
-            // 
-            this.rdbtn16.AutoSize = true;
-            this.rdbtn16.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn16.Location = new System.Drawing.Point(50, 14);
-            this.rdbtn16.Name = "rdbtn16";
-            this.rdbtn16.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn16.TabIndex = 18;
-            this.rdbtn16.TabStop = true;
-            this.rdbtn16.Text = "No";
-            this.rdbtn16.UseVisualStyleBackColor = true;
-            // 
-            // rdbtn15
-            // 
-            this.rdbtn15.AutoSize = true;
-            this.rdbtn15.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn15.Location = new System.Drawing.Point(6, 14);
-            this.rdbtn15.Name = "rdbtn15";
-            this.rdbtn15.Size = new System.Drawing.Size(43, 17);
-            this.rdbtn15.TabIndex = 17;
-            this.rdbtn15.TabStop = true;
-            this.rdbtn15.Text = "Yes";
-            this.rdbtn15.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.rdbtn1);
-            this.groupBox1.Controls.Add(this.rdbtn2);
-            this.groupBox1.Location = new System.Drawing.Point(140, 120);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(105, 34);
-            this.groupBox1.TabIndex = 28;
-            this.groupBox1.TabStop = false;
-            // 
-            // rdbtn1
-            // 
-            this.rdbtn1.AutoSize = true;
-            this.rdbtn1.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn1.Location = new System.Drawing.Point(5, 12);
-            this.rdbtn1.Name = "rdbtn1";
-            this.rdbtn1.Size = new System.Drawing.Size(43, 17);
-            this.rdbtn1.TabIndex = 0;
-            this.rdbtn1.Text = "Yes";
-            this.rdbtn1.UseVisualStyleBackColor = true;
-            // 
-            // rdbtn2
-            // 
-            this.rdbtn2.AutoSize = true;
-            this.rdbtn2.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbtn2.Location = new System.Drawing.Point(54, 12);
-            this.rdbtn2.Name = "rdbtn2";
-            this.rdbtn2.Size = new System.Drawing.Size(39, 17);
-            this.rdbtn2.TabIndex = 1;
-            this.rdbtn2.Text = "No";
-            this.rdbtn2.UseVisualStyleBackColor = true;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(260, 206);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(197, 26);
-            this.label22.TabIndex = 27;
-            this.label22.Text = "Have you received two doses of covid \r\nvaccine?";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(260, 173);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(205, 13);
-            this.label21.TabIndex = 26;
-            this.label21.Text = "Have you travelled outside our country?";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(260, 137);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(166, 26);
-            this.label20.TabIndex = 25;
-            this.label20.Text = "Have you been exposed to covid\r\npatient?";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label19.Location = new System.Drawing.Point(22, 330);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(108, 13);
-            this.label19.TabIndex = 16;
-            this.label19.Text = "Nausea or Vomiting ";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label18.Location = new System.Drawing.Point(22, 139);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(112, 13);
-            this.label18.TabIndex = 15;
-            this.label18.Text = "Difficulty in breathing";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label15.Location = new System.Drawing.Point(21, 214);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(65, 13);
-            this.label15.TabIndex = 13;
-            this.label15.Text = "Sore throat";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label14.Location = new System.Drawing.Point(22, 252);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(79, 13);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "Fever or chills";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label13.Location = new System.Drawing.Point(22, 290);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 13);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "Diarrhea";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label12.Location = new System.Drawing.Point(18, 11);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(269, 39);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "COVID 19 QUESTIONNAIRE";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label17.Location = new System.Drawing.Point(22, 91);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(193, 13);
-            this.label17.TabIndex = 10;
-            this.label17.Text = "Do you have the following symptoms?";
-            // 
-            // btnAnotherOne
-            // 
-            this.btnAnotherOne.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnotherOne.Location = new System.Drawing.Point(241, 554);
-            this.btnAnotherOne.Name = "btnAnotherOne";
-            this.btnAnotherOne.Size = new System.Drawing.Size(116, 32);
-            this.btnAnotherOne.TabIndex = 24;
-            this.btnAnotherOne.Text = "Create Another Form";
-            this.btnAnotherOne.UseVisualStyleBackColor = true;
-            this.btnAnotherOne.Visible = false;
-            this.btnAnotherOne.Click += new System.EventHandler(this.btnAnotherOne_Click);
-            // 
-            // dtp1
-            // 
-            this.dtp1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp1.Location = new System.Drawing.Point(306, 128);
-            this.dtp1.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
-            this.dtp1.MinDate = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
-            this.dtp1.Name = "dtp1";
-            this.dtp1.Size = new System.Drawing.Size(213, 20);
-            this.dtp1.TabIndex = 19;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label16.Location = new System.Drawing.Point(29, 432);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(92, 26);
+            this.label16.TabIndex = 14;
+            this.label16.Text = "Lost of smell and\r\n taste";
             // 
             // dtp2
             // 
@@ -846,17 +627,222 @@
             this.dtp2.TabIndex = 24;
             this.dtp2.Value = new System.DateTime(2022, 6, 24, 0, 2, 0, 0);
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label19.Location = new System.Drawing.Point(29, 591);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(108, 13);
+            this.label19.TabIndex = 16;
+            this.label19.Text = "Nausea or Vomiting ";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label14.Location = new System.Drawing.Point(29, 513);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(79, 13);
+            this.label14.TabIndex = 12;
+            this.label14.Text = "Fever or chills";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label13.Location = new System.Drawing.Point(29, 551);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(51, 13);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "Diarrhea";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(264, 465);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(197, 26);
+            this.label22.TabIndex = 27;
+            this.label22.Text = "Have you received two doses of covid \r\nvaccine?";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label11.Location = new System.Drawing.Point(18, 11);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(266, 39);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "PERSONAL INFORMATION";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(264, 433);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(205, 13);
+            this.label21.TabIndex = 26;
+            this.label21.Text = "Have you travelled outside our country?";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(264, 388);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(166, 26);
+            this.label20.TabIndex = 25;
+            this.label20.Text = "Have you been exposed to covid\r\npatient?";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label15.Location = new System.Drawing.Point(29, 474);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(65, 13);
+            this.label15.TabIndex = 13;
+            this.label15.Text = "Sore throat";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label18.Location = new System.Drawing.Point(29, 393);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(112, 13);
+            this.label18.TabIndex = 15;
+            this.label18.Text = "Difficulty in breathing";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label17.Location = new System.Drawing.Point(22, 353);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(193, 13);
+            this.label17.TabIndex = 10;
+            this.label17.Text = "Do you have the following symptoms?";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label12.Location = new System.Drawing.Point(25, 297);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(269, 39);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "COVID 19 QUESTIONNAIRE";
+            // 
+            // dtp1
+            // 
+            this.dtp1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp1.Location = new System.Drawing.Point(306, 128);
+            this.dtp1.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
+            this.dtp1.MinDate = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
+            this.dtp1.Name = "dtp1";
+            this.dtp1.Size = new System.Drawing.Size(213, 20);
+            this.dtp1.TabIndex = 19;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rdbtn1);
+            this.groupBox1.Controls.Add(this.rdbtn2);
+            this.groupBox1.Location = new System.Drawing.Point(147, 383);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(99, 27);
+            this.groupBox1.TabIndex = 28;
+            this.groupBox1.TabStop = false;
+            // 
+            // rdbtn1
+            // 
+            this.rdbtn1.AutoSize = true;
+            this.rdbtn1.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn1.Location = new System.Drawing.Point(6, 8);
+            this.rdbtn1.Name = "rdbtn1";
+            this.rdbtn1.Size = new System.Drawing.Size(43, 17);
+            this.rdbtn1.TabIndex = 0;
+            this.rdbtn1.Text = "Yes";
+            this.rdbtn1.UseVisualStyleBackColor = true;
+            // 
+            // rdbtn2
+            // 
+            this.rdbtn2.AutoSize = true;
+            this.rdbtn2.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtn2.Location = new System.Drawing.Point(53, 8);
+            this.rdbtn2.Name = "rdbtn2";
+            this.rdbtn2.Size = new System.Drawing.Size(39, 17);
+            this.rdbtn2.TabIndex = 1;
+            this.rdbtn2.Text = "No";
+            this.rdbtn2.UseVisualStyleBackColor = true;
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(489, 774);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(116, 33);
+            this.btnSubmit.TabIndex = 22;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Visible = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
+            // btnAnotherOne
+            // 
+            this.btnAnotherOne.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnotherOne.Location = new System.Drawing.Point(241, 774);
+            this.btnAnotherOne.Name = "btnAnotherOne";
+            this.btnAnotherOne.Size = new System.Drawing.Size(116, 32);
+            this.btnAnotherOne.TabIndex = 24;
+            this.btnAnotherOne.Text = "Create Another Form";
+            this.btnAnotherOne.UseVisualStyleBackColor = true;
+            this.btnAnotherOne.Visible = false;
+            this.btnAnotherOne.Click += new System.EventHandler(this.btnAnotherOne_Click);
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReturn.Location = new System.Drawing.Point(21, 774);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(116, 33);
+            this.btnReturn.TabIndex = 21;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Visible = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
+            // btnNext
+            // 
+            this.btnNext.Location = new System.Drawing.Point(489, 774);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(116, 31);
+            this.btnNext.TabIndex = 25;
+            this.btnNext.Text = "Next ";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(243)))), ((int)(((byte)(233)))));
-            this.ClientSize = new System.Drawing.Size(613, 599);
+            this.ClientSize = new System.Drawing.Size(617, 831);
+            this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnAnotherOne);
-            this.Controls.Add(this.pnl2);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnReturn);
-            this.Controls.Add(this.btnNext);
             this.Controls.Add(this.pnl1);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Black;
@@ -869,24 +855,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnl1.ResumeLayout(false);
             this.pnl1.PerformLayout();
-            this.pnl2.ResumeLayout(false);
-            this.pnl2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -916,51 +900,50 @@
         private System.Windows.Forms.TextBox txtbxEmail;
         private System.Windows.Forms.Panel pnl1;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Button btnReturn;
         private System.Windows.Forms.Button btnSubmit;
-        private System.Windows.Forms.Panel pnl2;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.DateTimePicker dtp1;
+        private System.Windows.Forms.DateTimePicker dtp2;
+        private System.Windows.Forms.RadioButton rdbtn18;
+        private System.Windows.Forms.RadioButton rdbtn17;
+        private System.Windows.Forms.RadioButton rdbtn16;
+        private System.Windows.Forms.RadioButton rdbtn15;
+        private System.Windows.Forms.RadioButton rdbtn13;
+        private System.Windows.Forms.RadioButton rdbtn12;
+        private System.Windows.Forms.RadioButton rdbtn14;
+        private System.Windows.Forms.RadioButton rdbtn11;
+        private System.Windows.Forms.RadioButton rdbtn10;
+        private System.Windows.Forms.RadioButton rdbtn9;
         private System.Windows.Forms.RadioButton rdbtn8;
         private System.Windows.Forms.RadioButton rdbtn7;
         private System.Windows.Forms.RadioButton rdbtn6;
         private System.Windows.Forms.RadioButton rdbtn5;
         private System.Windows.Forms.RadioButton rdbtn4;
         private System.Windows.Forms.RadioButton rdbtn3;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.RadioButton rdbtn12;
-        private System.Windows.Forms.RadioButton rdbtn10;
-        private System.Windows.Forms.RadioButton rdbtn11;
-        private System.Windows.Forms.RadioButton rdbtn9;
+        private System.Windows.Forms.RadioButton rdbtn1;
+        private System.Windows.Forms.RadioButton rdbtn2;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.RadioButton rdbtn18;
-        private System.Windows.Forms.RadioButton rdbtn16;
-        private System.Windows.Forms.RadioButton rdbtn14;
-        private System.Windows.Forms.RadioButton rdbtn17;
-        private System.Windows.Forms.RadioButton rdbtn15;
-        private System.Windows.Forms.RadioButton rdbtn2;
-        private System.Windows.Forms.RadioButton rdbtn1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button btnAnotherOne;
+        private System.Windows.Forms.Button btnReturn;
+        private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Button btnAnotherOne;
-        private System.Windows.Forms.RadioButton rdbtn13;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.DateTimePicker dtp1;
-        private System.Windows.Forms.DateTimePicker dtp2;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
