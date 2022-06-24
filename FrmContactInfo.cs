@@ -112,14 +112,18 @@ namespace Contact_tracing_app
                 {
                     file.WriteLine("Question9: No");
                 }
+
+                
                 file.Close();
-
-                btnSubmit.Visible = false;
-                btnAnotherOne.Visible = true;
-                pnl1.Hide();
-
-
                 MessageBox.Show("Your response has been recorded");
+
+
+                this.Hide();
+                FrmSummary frmsummary= new FrmSummary();
+                frmsummary.originalform = this;
+                frmsummary.Show();
+                
+
             }
             else
                 MessageBox.Show("Please fill in the fields properly");

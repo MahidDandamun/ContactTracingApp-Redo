@@ -9,3 +9,4 @@ E:\Source\Repos\Contact tracing app\obj\Debug\Contact tracing app.csproj.Generat
 E:\Source\Repos\Contact tracing app\obj\Debug\Contact tracing app.csproj.CoreCompileInputs.cache
 E:\Source\Repos\Contact tracing app\obj\Debug\Contact tracing app.exe
 E:\Source\Repos\Contact tracing app\obj\Debug\Contact tracing app.pdb
+E:\Source\Repos\Contact tracing app\obj\Debug\Contact_tracing_app.FrmSummary.resources

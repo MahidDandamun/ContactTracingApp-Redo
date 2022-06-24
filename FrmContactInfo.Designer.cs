@@ -781,7 +781,7 @@
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(270, 773);
+            this.btnSubmit.Location = new System.Drawing.Point(270, 774);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(116, 33);
             this.btnSubmit.TabIndex = 22;
@@ -803,7 +803,6 @@
             // 
             // cbAge
             // 
-            this.cbAge.FormattingEnabled = true;
             this.cbAge.Items.AddRange(new object[] {
             "1",
             "2",
